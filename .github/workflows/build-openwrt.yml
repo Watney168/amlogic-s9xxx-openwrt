@@ -294,8 +294,8 @@ jobs:
               TAGS_NAME="lede"
           elif [[ "${{ inputs.source_branch }}" == *"immortalwrt"* ]]; then
               REPO_URL="https://github.com/immortalwrt/immortalwrt"
-              # REPO_BRANCH="master"
-              REPO_BRANCH="openwrt-23.05"
+              REPO_BRANCH="master"
+              # REPO_BRANCH="openwrt-23.05"
               TAGS_NAME="immortalwrt"
           else
               echo "Unknown source code repository."
@@ -407,7 +407,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
             ### OpenWrt Image information
-            - Default IP: 192.168.1.1
+            - Default IP: 192.168.3.4
             - Default username: root
             - Default password: password
             - Default WIFI name: OpenWrt
