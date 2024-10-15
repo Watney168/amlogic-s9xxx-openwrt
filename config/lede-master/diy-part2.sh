@@ -32,6 +32,9 @@ sed -i 's/192.168.1.1/192.168.3.4/g' package/base-files/files/bin/config_generat
 rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 
+git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus
+git clone -b js --single-branch https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
+
 #添加openclash
 ## 下载OpenClash
 wget https://github.com/vernesong/OpenClash/archive/master.zip
