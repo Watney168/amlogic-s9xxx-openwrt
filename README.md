@@ -1,3 +1,12 @@
+
+- 本仓库的目的是为了一些盒子打包自行使用的openwrt固件。经测试，使用openwrt2305的源码构建的带有istore的固件对本人的网络环境（旁路由）较为友好。主分支是对lede和immortal最新分支的尝试。
+- test4istore分支内修改了openwrt构建分支为23.05，并且成功通过测试。
+
+
+以下为源项目说明
+
+---
+
 # OpenWrt
 
 View Chinese description | [查看中文说明](README.cn.md)
